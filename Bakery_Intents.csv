@@ -1,0 +1,94 @@
+Do you cater to food allergies,allergens
+Do you have gluten free options,allergens
+Is this nut free,allergens
+What allergens are in your products,allergens
+Allergy information,allergens
+I don't want my order anymore,cancel_order
+Can I cancel my order,cancel_order
+Please cancel the order,cancel_order
+I need to cancel,cancel_order
+Cancel my order,cancel_order
+I want to cancel my order,cancel_order
+Cancel,confirm_no
+No thanks,confirm_no
+Nope,confirm_no
+No,confirm_no
+No that's wrong,confirm_no
+Not right now,confirm_no
+I changed my mind,confirm_no
+Never mind,confirm_no
+That's correct,confirm_yes
+Yes,confirm_yes
+Yeah,confirm_yes
+Sure,confirm_yes
+Absolutely,confirm_yes
+Yes please,confirm_yes
+Confirm,confirm_yes
+Go ahead,confirm_yes
+What's your phone number,contact
+How do I get in touch,contact
+Contact information please,contact
+Do you have an email,contact
+How can I contact you,contact
+Bye,goodbye
+Goodbye,goodbye
+See you later,goodbye
+Take care,goodbye
+Have a good day,goodbye
+That's all,goodbye
+Good morning,greeting
+Good afternoon,greeting
+Hello,greeting
+Hi,greeting
+Hey there,greeting
+What can you help with,help
+Show me what you can do,help
+How can you help me?,help
+What can you do?,help
+Help,help
+What are your business hours,hours
+When do you close,hours
+When do you open,hours
+What are your hours,hours
+Are you open today,hours
+Transfer me to an agent,human_agent
+Can I speak to a manager,human_agent
+Let me talk to a real person,human_agent
+I need to speak with someone,human_agent
+Connect me to a human,human_agent
+I want to talk to a person,human_agent
+Where are you located,location
+How do I get there,location
+Where is your shop,location
+What's your address,location
+Where can I find you,location
+Show me the menu,menu
+What do you have,menu
+What's available today,menu
+What baked goods do you have,menu
+What items do you offer,menu
+I want to buy,order
+I want to order,order
+Take my order please,order
+Can I order something,order
+I'd like to place an order,order
+What are your pickup times?,pickup
+Is pickup available?,pickup
+Where can I pick up my order?,pickup
+How does pickup work?,pickup
+Can I pick it up later today?,pickup
+What are your prices,prices
+What's the price,prices
+How much does it cost,prices
+How much for,prices
+Price list,prices
+Do you have any deals,specials
+What are today's specials,specials
+Do you have any seasonal items,specials
+What's on special,specials
+Any discounts today,specials
+Thanks,thank_you
+Thank you,thank_you
+Much appreciated,thank_you
+I appreciate it,thank_you
+Thanks a lot,thank_you

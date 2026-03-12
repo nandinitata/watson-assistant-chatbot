@@ -1,0 +1,1608 @@
+{
+  "intents": [
+    {
+      "intent": "allergens",
+      "examples": [
+        {
+          "text": "Allergy information"
+        },
+        {
+          "text": "Do you cater to food allergies"
+        },
+        {
+          "text": "Do you have gluten free options"
+        },
+        {
+          "text": "Is this nut free"
+        },
+        {
+          "text": "What allergens are in your products"
+        }
+      ]
+    },
+    {
+      "intent": "cancel_order",
+      "examples": [
+        {
+          "text": "Cancel my order"
+        },
+        {
+          "text": "Can I cancel my order"
+        },
+        {
+          "text": "I don't want my order anymore"
+        },
+        {
+          "text": "I need to cancel"
+        },
+        {
+          "text": "I want to cancel my order"
+        },
+        {
+          "text": "Please cancel the order"
+        }
+      ]
+    },
+    {
+      "intent": "confirm_no",
+      "examples": [
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "I changed my mind"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "No thanks"
+        },
+        {
+          "text": "No that's wrong"
+        },
+        {
+          "text": "Not right now"
+        }
+      ]
+    },
+    {
+      "intent": "confirm_yes",
+      "examples": [
+        {
+          "text": "Absolutely"
+        },
+        {
+          "text": "Confirm"
+        },
+        {
+          "text": "Go ahead"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "That's correct"
+        },
+        {
+          "text": "Yeah"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "Yes please"
+        }
+      ]
+    },
+    {
+      "intent": "contact",
+      "examples": [
+        {
+          "text": "Contact information please"
+        },
+        {
+          "text": "Do you have an email"
+        },
+        {
+          "text": "How can I contact you"
+        },
+        {
+          "text": "How do I get in touch"
+        },
+        {
+          "text": "What's your phone number"
+        }
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Have a good day"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Take care"
+        },
+        {
+          "text": "That's all"
+        }
+      ]
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hi"
+        }
+      ]
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "Help"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "Show me what you can do"
+        },
+        {
+          "text": "What can you do?"
+        },
+        {
+          "text": "What can you help with"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hours",
+      "examples": [
+        {
+          "text": "Are you open today"
+        },
+        {
+          "text": "What are your business hours"
+        },
+        {
+          "text": "What are your hours"
+        },
+        {
+          "text": "When do you close"
+        },
+        {
+          "text": "When do you open"
+        }
+      ]
+    },
+    {
+      "intent": "human_agent",
+      "examples": [
+        {
+          "text": "Can I speak to a manager"
+        },
+        {
+          "text": "Connect me to a human"
+        },
+        {
+          "text": "I need to speak with someone"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "Let me talk to a real person"
+        },
+        {
+          "text": "Transfer me to an agent"
+        }
+      ]
+    },
+    {
+      "intent": "location",
+      "examples": [
+        {
+          "text": "How do I get there"
+        },
+        {
+          "text": "What's your address"
+        },
+        {
+          "text": "Where are you located"
+        },
+        {
+          "text": "Where can I find you"
+        },
+        {
+          "text": "Where is your shop"
+        }
+      ]
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "Show me the menu"
+        },
+        {
+          "text": "What baked goods do you have"
+        },
+        {
+          "text": "What do you have"
+        },
+        {
+          "text": "What items do you offer"
+        },
+        {
+          "text": "What's available today"
+        }
+      ]
+    },
+    {
+      "intent": "order",
+      "examples": [
+        {
+          "text": "Can I order something"
+        },
+        {
+          "text": "I'd like to place an order"
+        },
+        {
+          "text": "I want to buy"
+        },
+        {
+          "text": "I want to order"
+        },
+        {
+          "text": "Take my order please"
+        }
+      ]
+    },
+    {
+      "intent": "pickup",
+      "examples": [
+        {
+          "text": "Can I pick it up later today?"
+        },
+        {
+          "text": "How does pickup work?"
+        },
+        {
+          "text": "Is pickup available?"
+        },
+        {
+          "text": "What are your pickup times?"
+        },
+        {
+          "text": "Where can I pick up my order?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "prices",
+      "examples": [
+        {
+          "text": "How much does it cost"
+        },
+        {
+          "text": "How much for"
+        },
+        {
+          "text": "Price list"
+        },
+        {
+          "text": "What are your prices"
+        },
+        {
+          "text": "What's the price"
+        }
+      ]
+    },
+    {
+      "intent": "specials",
+      "examples": [
+        {
+          "text": "Any discounts today"
+        },
+        {
+          "text": "Do you have any deals"
+        },
+        {
+          "text": "Do you have any seasonal items"
+        },
+        {
+          "text": "What are today's specials"
+        },
+        {
+          "text": "What's on special"
+        }
+      ]
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "I appreciate it"
+        },
+        {
+          "text": "Much appreciated"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Thanks a lot"
+        },
+        {
+          "text": "Thank you"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "bakery_item",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "brownie",
+          "synonyms": [
+            "brownies",
+            "chocolate brownie",
+            "fudge brownie",
+            "walnut brownie"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cake",
+          "synonyms": [
+            "cakes",
+            "gateau",
+            "layer cake",
+            "pastry cake",
+            "pound cake",
+            "sponge cake",
+            "torte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cookie",
+          "synonyms": [
+            "biscuit",
+            "chocolate chip cookie",
+            "cookies",
+            "sugar cookie"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "croissant",
+          "synonyms": [
+            "almond croissant",
+            "butter croissant",
+            "chocolate croissant",
+            "croissants"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "macaron",
+          "synonyms": [
+            "french macaron",
+            "macarons",
+            "macaroon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "muffin",
+          "synonyms": [
+            "banana muffin",
+            "blueberry muffin",
+            "chocolate muffin",
+            "muffins"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "delivery_area",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "downtown",
+          "synonyms": [
+            "central",
+            "city center",
+            "main street"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nearby",
+          "synonyms": [
+            "around here",
+            "close by",
+            "near me"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "suburbs",
+          "synonyms": [
+            "outskirts",
+            "suburban area"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "dietary",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dairy free",
+          "synonyms": [
+            "dairy-free",
+            "lactose free",
+            "no dairy",
+            "non dairy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "egg free",
+          "synonyms": [
+            "egg-free",
+            "no eggs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gluten free",
+          "synonyms": [
+            "celiac friendly",
+            "GF",
+            "gluten-free",
+            "no gluten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "keto",
+          "synonyms": [
+            "keto friendly",
+            "low carb",
+            "low-carb"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nut free",
+          "synonyms": [
+            "no nuts",
+            "nut-free",
+            "peanut free"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sugar free",
+          "synonyms": [
+            "diabetic friendly",
+            "low sugar",
+            "no sugar",
+            "sugar-free"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vegan",
+          "synonyms": [
+            "no animal products",
+            "plant based",
+            "plant-based"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "flavor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "banana",
+          "synonyms": [
+            "plantain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "blueberry",
+          "synonyms": [
+            "blueberries"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "caramel",
+          "synonyms": [
+            "butterscotch",
+            "dulce de leche",
+            "toffee"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chocolate",
+          "synonyms": [
+            "choco",
+            "cocoa",
+            "dark chocolate",
+            "milk chocolate",
+            "white chocolate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cinnamon",
+          "synonyms": [
+            "cinnamon spice"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coconut",
+          "synonyms": [
+            "tropical coconut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coffee",
+          "synonyms": [
+            "cappuccino",
+            "espresso",
+            "mocha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hazelnut",
+          "synonyms": [
+            "nutella"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lemon",
+          "synonyms": [
+            "citrus",
+            "lemon zest",
+            "lime"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mango",
+          "synonyms": [
+            "tropical mango"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "maple",
+          "synonyms": [
+            "maple syrup"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mint",
+          "synonyms": [
+            "peppermint",
+            "spearmint"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "orange",
+          "synonyms": [
+            "mandarin",
+            "orange zest"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "peanut butter",
+          "synonyms": [
+            "PB",
+            "peanut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "raspberry",
+          "synonyms": [
+            "raspberries"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "red velvet",
+          "synonyms": [
+            "red-velvet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "strawberry",
+          "synonyms": [
+            "fresh strawberry",
+            "strawberries"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vanilla",
+          "synonyms": [
+            "french vanilla",
+            "vanilla bean"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "occasion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anniversary",
+          "synonyms": [
+            "anniv",
+            "wedding anniversary"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "baby shower",
+          "synonyms": [
+            "baby celebration",
+            "newborn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "birthday",
+          "synonyms": [
+            "bday",
+            "birth day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "corporate",
+          "synonyms": [
+            "business event",
+            "company event",
+            "office"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "engagement",
+          "synonyms": [
+            "proposal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "graduation",
+          "synonyms": [
+            "convocation",
+            "grad"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "holiday",
+          "synonyms": [
+            "christmas",
+            "easter",
+            "new year",
+            "thanksgiving",
+            "valentines"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "housewarming",
+          "synonyms": [
+            "new home"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "retirement",
+          "synonyms": [
+            "farewell"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wedding",
+          "synonyms": [
+            "bridal",
+            "marriage"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "order_id",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ORD-pattern",
+          "synonyms": [
+            "#1234",
+            "ORD-1234",
+            "SCB-1234"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "quantity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dozen",
+          "synonyms": [
+            "12",
+            "a dozen",
+            "twelve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "four",
+          "synonyms": [
+            "4",
+            "quarter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "half dozen",
+          "synonyms": [
+            "6",
+            "half a dozen",
+            "six"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "one",
+          "synonyms": [
+            "1",
+            "single"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "three",
+          "synonyms": [
+            "3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "two",
+          "synonyms": [
+            "2",
+            "a pair",
+            "couple"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "two dozen",
+          "synonyms": [
+            "24",
+            "twenty four"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "size",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "extra large",
+          "synonyms": [
+            "extra-large",
+            "family size",
+            "jumbo",
+            "XL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "large",
+          "synonyms": [
+            "big",
+            "grande",
+            "L"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "medium",
+          "synonyms": [
+            "M",
+            "normal",
+            "regular",
+            "standard"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "small",
+          "synonyms": [
+            "little",
+            "mini",
+            "petit",
+            "S"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Fallback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I’m sorry, I didn’t understand that. I can help with orders, hours, specials, allergens, menu items, and contact information."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1772831564855",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1772832335258",
+      "context": {
+        "pickup_date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_10_1772832335259"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What bakery item would you like?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1772832104625",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1772832104652",
+      "previous_sibling": "handler_9_1772832104652"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What date would you like to pick up your order?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1772832335258",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1772832335259",
+      "previous_sibling": "handler_10_1772832335259"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What time would you like to pick up your order?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1772832336881",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1772832336883",
+      "previous_sibling": "handler_6_1772832336883"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How many would you like?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1772832322358",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1772832322359",
+      "previous_sibling": "handler_8_1772832322359"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1772832336881",
+      "context": {
+        "pickup_time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_6_1772832336883"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1772832322358",
+      "context": {
+        "order_quantity": "@quantity"
+      },
+      "conditions": "@quantity",
+      "event_name": "input",
+      "dialog_node": "handler_8_1772832322359"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1772832104625",
+      "context": {
+        "order_item": "@bakery_item"
+      },
+      "conditions": "@bakery_item",
+      "event_name": "input",
+      "dialog_node": "handler_9_1772832104652"
+    },
+    {
+      "type": "standard",
+      "title": "Pickup",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pickup is available during regular bakery hours. Once your order is confirmed, you can collect it at your selected date and time."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#pickup",
+      "dialog_node": "node_2_1772831155471",
+      "previous_sibling": "node_9_1772831042884"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem. Let’s start over. What bakery item would you like to order?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "order_item": null,
+        "current_flow": "ordering",
+        "order_summary": "$order_quantity $order_item for pickup on $pickup_date at $pickup_time",
+        "awaiting_confirmation": false
+      },
+      "conditions": "#confirm_no &&    $current_flow == \"ordering\" && $pickup_time != null",
+      "dialog_node": "node_3_1772830249733",
+      "previous_sibling": "node_4_1772830170518"
+    },
+    {
+      "type": "standard",
+      "title": "Contact",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can contact us at (555) 123-4567 or hello@sweetcrustbakery.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#contact",
+      "dialog_node": "node_3_1772831370206",
+      "previous_sibling": "node_5_1772831323119"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You’re welcome."
+              },
+              {
+                "text": "You are very welcome!"
+              },
+              {
+                "text": "Absolutely!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#thank_you",
+      "dialog_node": "node_3_1772831508227",
+      "previous_sibling": "node_8_1772831428204"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Your order has been placed. I have $order_quantity $order_item for pickup on $pickup_date at $pickup_time"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "current_flow": "none",
+        "awaiting_confirmation": false
+      },
+      "conditions": "#confirm_yes &&    $current_flow == \"ordering\" && $pickup_time != null",
+      "dialog_node": "node_4_1772830170518",
+      "previous_sibling": "node_6_1772832054113"
+    },
+    {
+      "type": "standard",
+      "title": "Human Agent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please call us at (555) 123-4567 during business hours and a staff member will help you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#human_agent",
+      "dialog_node": "node_4_1772831404038",
+      "previous_sibling": "node_3_1772831370206"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello! How can I help you today?"
+              },
+              {
+                "text": "Hi there! How can I help?"
+              },
+              {
+                "text": "Hello! Ready to explore our bakery?"
+              },
+              {
+                "text": "Welcome to Sweet Crust Bakery! How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#greeting",
+      "dialog_node": "node_5_1772823185066",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Specials Digressions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Today’s special is buy 6 cupcakes and get 2 free. Now, back to your order - please continue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#specials && $current_flow == \"ordering\"",
+      "digress_in": "returns",
+      "dialog_node": "node_5_1772830605352",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1772830486333"
+    },
+    {
+      "type": "standard",
+      "title": "Specials",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Today’s specials include buy 6 brownies and get 2 free, plus weekend discounts of 10% off whole cakes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#specials",
+      "digress_in": "returns",
+      "dialog_node": "node_5_1772831272042",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1772831229185"
+    },
+    {
+      "type": "standard",
+      "title": "Location",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We’re located at 123 Baker Street, Downtown."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#location",
+      "digress_in": "returns",
+      "dialog_node": "node_5_1772831323119",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1772831272042"
+    },
+    {
+      "type": "frame",
+      "title": "Order Flow",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here’s what I captured:\n\nItem: $order_item\nQuantity: $order_quantity\nPickup Date: $pickup_date\nPickup Time: $pickup_time\n\nIs that correct?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "current_flow": "ordering",
+        "awaiting_confirmation": false
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$current_flow != \"ordering\" && #order",
+      "digress_in": "returns",
+      "dialog_node": "node_6_1772832054113",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1772823354784",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Hours Digression",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our bakery hours are:\n\nMonday–Friday: 7:00 AM – 8:00 PM  \nSaturday: 8:00 AM – 9:00 PM  \nSunday: 8:00 AM – 6:00 PM  \n\nNow, let’s continue with your order."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hours && $current_flow == \"ordering\"",
+      "digress_in": "returns",
+      "dialog_node": "node_7_1772830486333",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1772830249733"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Goodbye, and thank you for visiting Sweet Crust Bakery."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_7_1772831564855",
+      "previous_sibling": "node_3_1772831508227"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can help you place an order, check our menu, hours, specials, allergens, or connect you with a staff member."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#help",
+      "dialog_node": "node_8_1772823354784",
+      "previous_sibling": "node_5_1772823185066"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel Order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, the order is canceled!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cancel_order",
+      "dialog_node": "node_8_1772831428204",
+      "previous_sibling": "node_4_1772831404038"
+    },
+    {
+      "type": "standard",
+      "title": "Hours",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our bakery hours are:\n\nMonday–Friday: 7:00 AM – 8:00 PM  \nSaturday: 8:00 AM – 9:00 PM  \nSunday: 8:00 AM – 6:00 PM  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hours",
+      "digress_in": "returns",
+      "dialog_node": "node_8_1773092343804",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1772830753387"
+    },
+    {
+      "type": "standard",
+      "title": "Allergen Digression",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We offer gluten-free, vegan, dairy-free, egg-free, and nut-free options for select items. Cross-contamination is still possible. Now, back to your order - please continue."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#allergens && $current_flow == \"ordering\"",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1772830686965",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1772830605352"
+    },
+    {
+      "type": "standard",
+      "title": "Menu",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We offer brownies, cakes, cookies, muffins, macrons, croissants!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#menu",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1772830753387",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_9_1772830686965"
+    },
+    {
+      "type": "standard",
+      "title": "Prices",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cupcakes start at $3.49 each, cookies at $1.99, brownies at $4.99, croissants at $3.50, Macrons at $5.90, muffins at $ 4.50, and whole cakes from $24.99."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#prices",
+      "dialog_node": "node_9_1772831042884",
+      "previous_sibling": "node_8_1773092343804"
+    },
+    {
+      "type": "standard",
+      "title": "Allergens",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We offer gluten-free, vegan, dairy-free, egg-free, and nut-free options for select items. Cross-contamination is possible."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#allergens",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1772831229185",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1772831155471"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_6_1772832054113",
+      "disabled": true,
+      "dialog_node": "response_10_1772832104267",
+      "previous_sibling": "slot_3_1772832336881"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1772832054113",
+      "variable": "$pickup_time",
+      "dialog_node": "slot_3_1772832336881",
+      "previous_sibling": "slot_9_1772832335258"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1772832054113",
+      "variable": "$order_item",
+      "dialog_node": "slot_5_1772832104625"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1772832054113",
+      "variable": "$order_quantity",
+      "dialog_node": "slot_8_1772832322358",
+      "previous_sibling": "slot_5_1772832104625"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1772832054113",
+      "variable": "$pickup_date",
+      "dialog_node": "slot_9_1772832335258",
+      "previous_sibling": "slot_8_1772832322358"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to Sweet Crust Bakery! I can help you place an order, check bakery hours, view specials, ask about allergens, and more. How can I help you today?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "order_item": null,
+        "pickup_date": null,
+        "pickup_time": null,
+        "current_flow": "none",
+        "order_summary": null,
+        "order_quantity": null
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "Sweet Crust Bakery Assistant is a customer-service chatbot for a small bakery.",
+  "name": "Bakery-dialog"
+}

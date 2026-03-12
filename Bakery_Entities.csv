@@ -1,0 +1,56 @@
+bakery_item,cake,pastry cake,layer cake,sponge cake,pound cake,gateau,torte,cakes
+bakery_item,muffin,muffins,blueberry muffin,chocolate muffin,banana muffin
+bakery_item,croissant,croissants,butter croissant,chocolate croissant,almond croissant
+bakery_item,macaron,macarons,french macaron,macaroon
+bakery_item,brownie,brownies,chocolate brownie,fudge brownie,walnut brownie
+bakery_item,cookie,biscuit,cookies,sugar cookie,chocolate chip cookie
+delivery_area,suburbs,suburban area,outskirts
+delivery_area,downtown,city center,central,main street
+delivery_area,nearby,close by,near me,around here
+dietary,nut free,nut-free,no nuts,peanut free
+dietary,keto,keto friendly,low carb,low-carb
+dietary,dairy free,dairy-free,lactose free,no dairy,non dairy
+dietary,egg free,egg-free,no eggs
+dietary,gluten free,gluten-free,GF,no gluten,celiac friendly
+dietary,vegan,plant based,plant-based,no animal products
+dietary,sugar free,sugar-free,no sugar,diabetic friendly,low sugar
+flavor,cinnamon,cinnamon spice
+flavor,orange,orange zest,mandarin
+flavor,mint,peppermint,spearmint
+flavor,maple,maple syrup
+flavor,hazelnut,nutella
+flavor,coconut,tropical coconut
+flavor,mango,tropical mango
+flavor,raspberry,raspberries
+flavor,banana,plantain
+flavor,peanut butter,PB,peanut
+flavor,coffee,mocha,espresso,cappuccino
+flavor,caramel,butterscotch,toffee,dulce de leche
+flavor,red velvet,red-velvet
+flavor,lemon,lemon zest,citrus,lime
+flavor,blueberry,blueberries
+flavor,strawberry,strawberries,fresh strawberry
+flavor,vanilla,french vanilla,vanilla bean
+flavor,chocolate,choco,dark chocolate,milk chocolate,white chocolate,cocoa
+occasion,wedding,marriage,bridal
+occasion,birthday,bday,birth day
+occasion,corporate,office,business event,company event
+occasion,holiday,christmas,thanksgiving,easter,new year,valentines
+occasion,housewarming,new home
+occasion,engagement,proposal
+occasion,retirement,farewell
+occasion,baby shower,newborn,baby celebration
+occasion,graduation,grad,convocation
+occasion,anniversary,anniv,wedding anniversary
+order_id,ORD-pattern,ORD-1234,SCB-1234,#1234
+quantity,four,4,quarter
+quantity,two dozen,24,twenty four
+quantity,dozen,12,twelve,a dozen
+quantity,half dozen,6,six,half a dozen
+quantity,three,3
+quantity,two,2,a pair,couple
+quantity,one,1,single
+size,small,S,little,mini,petit
+size,extra large,XL,extra-large,jumbo,family size
+size,large,L,big,grande
+size,medium,M,regular,standard,normal
