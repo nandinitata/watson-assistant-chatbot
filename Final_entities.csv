@@ -1,25 +1,22 @@
 bakery_item,cake,pastry cake,layer cake,sponge cake,pound cake,gateau,torte,cakes
+bakery_item,cookie,biscuit,cookies,sugar cookie,chocolate chip cookie
 bakery_item,muffin,muffins,blueberry muffin,chocolate muffin,banana muffin
 bakery_item,croissant,croissants,butter croissant,chocolate croissant,almond croissant
-bakery_item,macaron,macarons,french macaron,macaroon
 bakery_item,brownie,brownies,chocolate brownie,fudge brownie,walnut brownie
-bakery_item,cookie,biscuit,cookies,sugar cookie,chocolate chip cookie
-delivery_area,suburbs,suburban area,outskirts
-delivery_area,downtown,city center,central,main street
-delivery_area,nearby,close by,near me,around here
-dietary,nut free,nut-free,no nuts,peanut free
-dietary,keto,keto friendly,low carb,low-carb
-dietary,dairy free,dairy-free,lactose free,no dairy,non dairy
+bakery_item,macaron,macarons,french macaron,macaroon
 dietary,egg free,egg-free,no eggs
 dietary,gluten free,gluten-free,GF,no gluten,celiac friendly
 dietary,vegan,plant based,plant-based,no animal products
 dietary,sugar free,sugar-free,no sugar,diabetic friendly,low sugar
-flavor,cinnamon,cinnamon spice
-flavor,orange,orange zest,mandarin
+dietary,nut free,nut-free,no nuts,peanut free
+dietary,dairy free,dairy-free,lactose free,no dairy,non dairy
+dietary,keto,keto friendly,low carb,low-carb
 flavor,mint,peppermint,spearmint
+flavor,orange,orange zest,mandarin
 flavor,maple,maple syrup
 flavor,hazelnut,nutella
 flavor,coconut,tropical coconut
+flavor,cinnamon,cinnamon spice
 flavor,mango,tropical mango
 flavor,raspberry,raspberries
 flavor,banana,plantain
@@ -32,25 +29,28 @@ flavor,blueberry,blueberries
 flavor,strawberry,strawberries,fresh strawberry
 flavor,vanilla,french vanilla,vanilla bean
 flavor,chocolate,choco,dark chocolate,milk chocolate,white chocolate,cocoa
-occasion,wedding,marriage,bridal
-occasion,birthday,bday,birth day
-occasion,corporate,office,business event,company event
-occasion,holiday,christmas,thanksgiving,easter,new year,valentines
-occasion,housewarming,new home
-occasion,engagement,proposal
-occasion,retirement,farewell
-occasion,baby shower,newborn,baby celebration
-occasion,graduation,grad,convocation
-occasion,anniversary,anniv,wedding anniversary
-order_id,ORD-pattern,ORD-1234,SCB-1234,#1234
 quantity,four,4,quarter
-quantity,two dozen,24,twenty four
-quantity,dozen,12,twelve,a dozen
-quantity,half dozen,6,six,half a dozen
-quantity,three,3
+quantity,seven,"7, seven"
 quantity,two,2,a pair,couple
+quantity,three,3
+quantity,half dozen,6,six,half a dozen
+quantity,two dozen,24,twenty four
 quantity,one,1,single
+quantity,five,"five, 5, fives"
+quantity,eight,"8, eight"
+quantity,nine,"9, nine"
+quantity,ten,"10, ten"
+quantity,eleven,"11, eleven"
+quantity,dozen,12,twelve,a dozen,one dozen
 size,small,S,little,mini,petit
-size,extra large,XL,extra-large,jumbo,family size
-size,large,L,big,grande
 size,medium,M,regular,standard,normal
+size,large,L,big,grande
+size,extra large,XL,extra-large,jumbo,family size
+time,3pm,"three pm, 3 P.M, 3 Pm"
+time,1 pm,"one pm, 1 pm, 1 PM, 1 P.M"
+time,2 pm,"two pm, 2 P.M, 2 Pm"
+time,12 pm,"noon, middday, twelve pm, 12 P.M, 12 Pm"
+time,11 am,"eleven in the morning, 11 A.M, 11 AM, 11 Am, eleven am, eleven"
+time,10 am,"ten in the morning, 10 A.M, 10 AM, 10 Am, ten am, ten"
+time,9 am,"nine in the morning, 9 A.M, 9 AM, 9 Am, nine am, nine"
+time,8 am,"eight in the morning, 8 A.M, 8 AM, 8 Am, eight am, eight"

@@ -10,7 +10,19 @@
           "text": "Do you cater to food allergies"
         },
         {
+          "text": "Do you have dairy free options"
+        },
+        {
           "text": "Do you have gluten free options"
+        },
+        {
+          "text": "Do you have nut free options"
+        },
+        {
+          "text": "Do you have vegan options"
+        },
+        {
+          "text": "I have allergies"
         },
         {
           "text": "Is this nut free"
@@ -122,6 +134,27 @@
       ]
     },
     {
+      "intent": "flavors",
+      "examples": [
+        {
+          "text": "how many flavors do you have"
+        },
+        {
+          "text": "what are the flavors?"
+        },
+        {
+          "text": "what do they taste"
+        },
+        {
+          "text": "what flavors do you have"
+        },
+        {
+          "text": "what types do you have"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "goodbye",
       "examples": [
         {
@@ -132,6 +165,9 @@
         },
         {
           "text": "Have a good day"
+        },
+        {
+          "text": "noice"
         },
         {
           "text": "See you later"
@@ -161,6 +197,9 @@
         },
         {
           "text": "Hi"
+        },
+        {
+          "text": "Oi"
         }
       ]
     },
@@ -256,6 +295,9 @@
         },
         {
           "text": "What baked goods do you have"
+        },
+        {
+          "text": "Whatcha got to eat"
         },
         {
           "text": "What do you have"
@@ -434,37 +476,6 @@
             "blueberry muffin",
             "chocolate muffin",
             "muffins"
-          ]
-        }
-      ]
-    },
-    {
-      "entity": "delivery_area",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "downtown",
-          "synonyms": [
-            "central",
-            "city center",
-            "main street"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "nearby",
-          "synonyms": [
-            "around here",
-            "close by",
-            "near me"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "suburbs",
-          "synonyms": [
-            "outskirts",
-            "suburban area"
           ]
         }
       ]
@@ -686,106 +697,6 @@
       ]
     },
     {
-      "entity": "occasion",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "anniversary",
-          "synonyms": [
-            "anniv",
-            "wedding anniversary"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "baby shower",
-          "synonyms": [
-            "baby celebration",
-            "newborn"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "birthday",
-          "synonyms": [
-            "bday",
-            "birth day"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "corporate",
-          "synonyms": [
-            "business event",
-            "company event",
-            "office"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "engagement",
-          "synonyms": [
-            "proposal"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "graduation",
-          "synonyms": [
-            "convocation",
-            "grad"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "holiday",
-          "synonyms": [
-            "christmas",
-            "easter",
-            "new year",
-            "thanksgiving",
-            "valentines"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "housewarming",
-          "synonyms": [
-            "new home"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "retirement",
-          "synonyms": [
-            "farewell"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "wedding",
-          "synonyms": [
-            "bridal",
-            "marriage"
-          ]
-        }
-      ]
-    },
-    {
-      "entity": "order_id",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "ORD-pattern",
-          "synonyms": [
-            "#1234",
-            "ORD-1234",
-            "SCB-1234"
-          ]
-        }
-      ]
-    },
-    {
       "entity": "quantity",
       "values": [
         {
@@ -794,7 +705,29 @@
           "synonyms": [
             "12",
             "a dozen",
+            "one dozen",
             "twelve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eight",
+          "synonyms": [
+            "8, eight"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eleven",
+          "synonyms": [
+            "11, eleven"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "five",
+          "synonyms": [
+            "five, 5, fives"
           ]
         },
         {
@@ -816,10 +749,31 @@
         },
         {
           "type": "synonyms",
+          "value": "nine",
+          "synonyms": [
+            "9, nine"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "one",
           "synonyms": [
             "1",
             "single"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "seven",
+          "synonyms": [
+            "7, seven"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ten",
+          "synonyms": [
+            "10, ten"
           ]
         },
         {
@@ -899,6 +853,68 @@
     {
       "entity": "sys-time",
       "values": []
+    },
+    {
+      "entity": "time",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "10 am",
+          "synonyms": [
+            "ten in the morning, 10 A.M, 10 AM, 10 Am, ten am, ten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "11 am",
+          "synonyms": [
+            "eleven in the morning, 11 A.M, 11 AM, 11 Am, eleven am, eleven"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "12 pm",
+          "synonyms": [
+            "noon, middday, twelve pm, 12 P.M, 12 Pm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1 pm",
+          "synonyms": [
+            "one pm, 1 pm, 1 PM, 1 P.M"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "2 pm",
+          "synonyms": [
+            "two pm, 2 P.M, 2 Pm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3pm",
+          "synonyms": [
+            "three pm, 3 P.M, 3 Pm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "8 am",
+          "synonyms": [
+            "eight in the morning, 8 A.M, 8 AM, 8 Am, eight am, eight"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "9 am",
+          "synonyms": [
+            "nine in the morning, 9 A.M, 9 AM, 9 Am, nine am, nine"
+          ]
+        }
+      ],
+      "fuzzy_match": true
     }
   ],
   "metadata": {
@@ -931,7 +947,9 @@
         ]
       },
       "conditions": "anything_else",
+      "digress_in": "returns",
       "dialog_node": "Anything else",
+      "digress_out": "allow_all",
       "previous_sibling": "node_7_1772831564855",
       "disambiguation_opt_out": true
     },
@@ -964,6 +982,17 @@
       "event_name": "focus",
       "dialog_node": "handler_4_1772832104652",
       "previous_sibling": "handler_9_1772832104652"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1773253875531",
+      "context": {
+        "order_flavor": "@flavor"
+      },
+      "conditions": "@flavor",
+      "event_name": "input",
+      "dialog_node": "handler_4_1773253875535"
     },
     {
       "type": "event_handler",
@@ -1010,7 +1039,26 @@
           {
             "values": [
               {
-                "text": "How many would you like?"
+                "text": "What flavor of $order_item would you like?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1773253875531",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1773253875535",
+      "previous_sibling": "node_8_1773254252349"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How many $order_flavor $order_item would you like? We offer 2, 4, half a dozen, dozen, two dozens etc."
               }
             ],
             "response_type": "text"
@@ -1072,7 +1120,9 @@
         ]
       },
       "conditions": "#pickup",
+      "digress_in": "returns",
       "dialog_node": "node_2_1772831155471",
+      "digress_out": "allow_all",
       "previous_sibling": "node_9_1772831042884"
     },
     {
@@ -1199,7 +1249,7 @@
           {
             "values": [
               {
-                "text": "Hello! How can I help you today?"
+                "text": "Hi! Welcome to Sweet Crust Bakery."
               },
               {
                 "text": "Hi there! How can I help?"
@@ -1209,6 +1259,9 @@
               },
               {
                 "text": "Welcome to Sweet Crust Bakery! How can I help you?"
+              },
+              {
+                "text": "Hello! How can I help you?"
               }
             ],
             "response_type": "text",
@@ -1216,6 +1269,7 @@
           }
         ]
       },
+      "context": {},
       "conditions": "#greeting",
       "dialog_node": "node_5_1772823185066",
       "previous_sibling": "Welcome"
@@ -1294,7 +1348,7 @@
           {
             "values": [
               {
-                "text": "Here’s what I captured:\n\nItem: $order_item\nQuantity: $order_quantity\nPickup Date: $pickup_date\nPickup Time: $pickup_time\n\nIs that correct?"
+                "text": "Here’s what I captured:\n\nItem: $order_flavor $order_item\nQuantity: $order_quantity\nPickup Date: $pickup_date\nPickup Time: $pickup_time\n\nIs that correct?"
               }
             ],
             "response_type": "text",
@@ -1425,6 +1479,49 @@
       "digress_in": "returns",
       "dialog_node": "node_8_1773092343804",
       "digress_out": "allow_all",
+      "previous_sibling": "node_8_1773254490891"
+    },
+    {
+      "type": "standard",
+      "title": "Flavor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We offer the following flavors:\n\nmint, orange, maple, hazelnut, coconut, cinnamon, carrot, mango, raspberry, banana, peanut butter,  strawberry, vanilla, pine apple upside down"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1773253875531",
+      "conditions": "#flavors",
+      "dialog_node": "node_8_1773254252349",
+      "previous_sibling": "handler_4_1773253875535"
+    },
+    {
+      "type": "standard",
+      "title": "Flavor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We offer the following flavors:\n\nMint, orange, maple, hazelnut, coconut, cinnamon, coconut, mango, raspberry, banana, peanut butter, red velvet, strawberry, vanilla"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#flavors",
+      "digress_in": "returns",
+      "dialog_node": "node_8_1773254490891",
+      "digress_out": "allow_all",
       "previous_sibling": "node_9_1772830753387"
     },
     {
@@ -1435,7 +1532,7 @@
           {
             "values": [
               {
-                "text": "We offer gluten-free, vegan, dairy-free, egg-free, and nut-free options for select items. Cross-contamination is still possible. Now, back to your order - please continue."
+                "text": "We offer the following options-\nGluten free: Brownies, Muffins, Cookies\nDairy free: Cookies, Cakes, Muffins\nEgg free: Brownies, Cookies, Muffins, Croissants\nNut free: Macarons, Muffins, Cakes, Brownies\nVegan: Cake, Muffins, Macarons, Brownies, Croissants\n\n Cross-contamination is still possible. Now, back to your order - please continue."
               }
             ],
             "response_type": "text",
@@ -1457,7 +1554,7 @@
           {
             "values": [
               {
-                "text": "We offer brownies, cakes, cookies, muffins, macrons, croissants!"
+                "text": "We offer brownies, cakes, cookies, muffins, macarons, croissants!"
               }
             ],
             "response_type": "text",
@@ -1479,7 +1576,7 @@
           {
             "values": [
               {
-                "text": "Cupcakes start at $3.49 each, cookies at $1.99, brownies at $4.99, croissants at $3.50, Macrons at $5.90, muffins at $ 4.50, and whole cakes from $24.99."
+                "text": "Cupcakes start at 3.49 each, cookies at 1.99, brownies at 4.99, croissants at 3.50, Macrons at 5.90, muffins at 4.50, and whole cakes from 24.99."
               }
             ],
             "response_type": "text",
@@ -1488,7 +1585,9 @@
         ]
       },
       "conditions": "#prices",
+      "digress_in": "returns",
       "dialog_node": "node_9_1772831042884",
+      "digress_out": "allow_all",
       "previous_sibling": "node_8_1773092343804"
     },
     {
@@ -1499,7 +1598,7 @@
           {
             "values": [
               {
-                "text": "We offer gluten-free, vegan, dairy-free, egg-free, and nut-free options for select items. Cross-contamination is possible."
+                "text": "We offer the following options-\nGluten free: Brownies, Muffins, Cookies\nDairy free: Cookies, Cakes, Muffins\nEgg free: Brownies, Cookies, Muffins\nNut free: Macarons, Muffins, Cakes, Brownies\nVegan: Cake, Muffins, Macarons, Brownies\n\nCross-contamination is possible."
               }
             ],
             "response_type": "text",
@@ -1531,6 +1630,13 @@
     {
       "type": "slot",
       "parent": "node_6_1772832054113",
+      "variable": "$order_flavor",
+      "dialog_node": "slot_4_1773253875531",
+      "previous_sibling": "slot_5_1772832104625"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1772832054113",
       "variable": "$order_item",
       "dialog_node": "slot_5_1772832104625"
     },
@@ -1539,7 +1645,7 @@
       "parent": "node_6_1772832054113",
       "variable": "$order_quantity",
       "dialog_node": "slot_8_1772832322358",
-      "previous_sibling": "slot_5_1772832104625"
+      "previous_sibling": "slot_4_1773253875531"
     },
     {
       "type": "slot",
@@ -1604,5 +1710,5 @@
   "learning_opt_out": false,
   "language": "en",
   "description": "Sweet Crust Bakery Assistant is a customer-service chatbot for a small bakery.",
-  "name": "Bakery-dialog"
+  "name": "Bakery"
 }
